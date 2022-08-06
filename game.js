@@ -61,7 +61,7 @@ function checkAnswer(currlvl){
 
 
 function playsound(name){
-  var music = new Audio("sounds/" + name + ".mp3");
+  var music = new Audio(  name + ".mp3");
   music.play();
 }
 
